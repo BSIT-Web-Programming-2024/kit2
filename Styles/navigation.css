@@ -1,0 +1,50 @@
+.heading-container{
+  position: fixed;
+  background-color:transparent;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+ z-index: 1;
+  transition: 0.5s;
+}
+.heading-container:hover{
+  opacity: 1;
+}
+.title{
+  color: rgb(14, 13, 13);
+  margin-left: 25px;
+  flex: 3;
+  font-size: 50px;
+  font-family: Georgia;
+
+}
+
+.home , .about , .contact, .skill, .project{
+  flex: 1;
+  
+  
+
+}
+a{
+  color:rgb(14, 13, 13); ;
+  text-decoration: none;
+}
+
+.home:hover, .about:hover, .contact:hover , .skill:hover, .project:hover{
+text-decoration: underline;
+  
+}
+
+.home:active , .about:active, .contact:active{
+
+  text-decoration: underline ;
+  text-decoration-color: blue;
+}
+
+
+

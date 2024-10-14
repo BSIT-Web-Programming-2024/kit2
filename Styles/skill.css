@@ -1,0 +1,29 @@
+.skills-container1{
+  margin-top: 150px;
+  background-color: rgb(112, 111, 110);
+  height: 400px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 400px 400px;
+  column-gap: 50px;
+  justify-content: center;
+  
+  }
+  
+  .skils-content{
+    margin-top: 50px;
+    height: 300px;
+  }
+  
+ .html{
+  text-align: center;
+  font-weight: bold;
+  
+ }
+
+ .dfd{
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 50px;
+ }

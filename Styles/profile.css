@@ -1,0 +1,24 @@
+.profile-container{
+margin-top: 300px;
+background-color: rgb(112, 111, 110);
+height: 400px;
+width: 100%;
+display: grid;
+grid-template-columns: 600px 600px;
+justify-content: center;
+}
+
+.profile-content{
+  margin-top: 50px;
+  height: 300px;
+}
+
+.profile-container2{
+  margin-top: 150px;
+  background-color: rgb(112, 111, 110);
+  height: 400px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 600px 600px;
+  justify-content: center;
+  }

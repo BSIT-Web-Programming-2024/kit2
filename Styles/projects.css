@@ -1,0 +1,34 @@
+.overlay{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px;
+  column-gap: 20px;
+  margin-left: 450px;
+  margin-top: 600px;
+  text-align: center;
+  font-size: 30px;
+  height: 200px;
+  width: 100%;
+  
+}
+
+.overlay-img{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px;
+  column-gap: 20px;
+  margin-left: 450px;
+  margin-top: 800px;
+  text-align: center;
+  font-size: 30px;
+  height: 200px;
+  
+}
+
+.img1{
+  width: 240px;
+  height: 200px;
+  object-fit: fill;
+ 
+  
+}
